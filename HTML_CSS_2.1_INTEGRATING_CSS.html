@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>INTEGRATING CSS</title>
+    <style>/*Example of Internal CSS */
+        html{
+            background: palegoldenrod;
+        }
+    </style>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1>CSS 2.1 INTEGRATING CSS</h1>
+    <hr />
+    <p style="font-style: italic;"><!--Example of INLINE CSS-->
+        CSS stands for CASCADING(Follows the hierarchy) STYLE SHEET is directly interpret
+        by the browser where as SCSS, Syntactically Awesome Style Sheet uses a preprocessor
+        SASS that processes the .scss to standard css file.
+    </p>
+    <p>
+        There are three ways through which we can integrate the CSS to HTML
+    <ol>
+        <li>Inline CSS -> with html element we use style attribute<br />
+            e.g. &lthtml style="Background:blue"&gt<br />
+            &lt/html&gt</li>
+        <li>Internal CSS (used for a single webpage)-> used in the &lthead&gt &lt/head&gt of the HTML doc.<br />
+            e.g. &lthead&gt<br />
+            &ltstyle&gt<br />
+            html{<br />
+            background:red;<br />
+            }<br />
+            &lt/style&gt<br />
+            &lt/head&gt</li>
+        <li>External CSS (Multiple Webpage)-&gt referred .css file within HTML doc.<br />
+            e.g. &lthead&gt<br />
+            &ltlink<br />
+            rel="stylesheet"<br />
+            href="./&ltfilename&gt.css"<br />
+            /&gt<br />
+            &lt/head&gt</li>
+    </ol>
+    </p>
+
+    <p>Previous Topic: <a href="./PROJECT_1.2MAGGI_MOMENTS.html">PROJECT 1.2 MAGGI MOMENTS</a><br />Next Topic: <a href="./HTML_CSS_2.2_SELECTORS.html">CSS 2.2 SELECTORS</a></p> 
+</body>
+
+</html>

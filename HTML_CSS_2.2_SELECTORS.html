@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        CSS SELECTORS
+    </title>
+<!--    <style>
+        p{
+            color:red;
+        }
+    * {
+        color:black;
+    }</style>-->
+</head>
+
+<body>
+    <h1>CSS 2.2 SELECTORS</h1>
+    <hr />
+    <p>
+        SYNTAX:<br />
+        css selector{ <br />
+        property:value;<br />
+        }
+    <ol>
+        <li><b>Class Selector:</b> Class is an <em>case-sensitive</em> attribute
+            used with HTML Element to gave css property to certain elements
+            <br />
+            Syntax:<br />
+            &lthead&gt<br />
+            &ltstyle&gt<br />
+            <strong>.red_font</strong>{ <i>&lt--- dot&ltclass_name&gt</i><br />
+            color:red;<br />
+            }<br />
+            &lt/style&gt<br />
+            &lt/head&gt<br /><br />
+            &ltbody&gt<br />
+            &ltp <b>class="red_font"</b>&gtHello Mr. DJ&lt/p&gt<br />
+            &ltp&gtHow are you?&lt/p&gt<br />
+            &lt/body&gt<br /><br />
+            RESULT:<br />
+            <p style="color:red">Hello Mr. DJ</p>
+            <p>How are you?</p><br />
+        </li>
+
+
+        <li><b>ID Selector:</b> Id is an <em>case-sensitive</em> attribute
+            used with HTML Element to gave css property to <b>one</b> element in a file.<br />
+            We can create as many ids as we want.<br />
+            Syntax:<br />
+            &lthead&gt<br />
+            &ltstyle&gt<br />
+            <strong>#red_font</strong>{ <i>&lt--- hash&ltid _name&gt</i><br />
+            color:red;<br />
+            }<br />
+            &lt/style&gt<br />
+            &lt/head&gt<br /><br />
+            &ltbody&gt<br />
+            &ltp <b>id="red_font"</b>&gtHello Mr. DJ&lt/p&gt<br />
+            &ltp&gtHow are you?&lt/p&gt<br />
+            &lt/body&gt<br /><br />
+            RESULT:<br />
+            <p style="color:red">Hello Mr. DJ</p>
+            <p>How are you?</p><br />
+        </li>
+        <li><b>ATTRIBUTE Selector:</b> This is used to give certain elements having certain
+            attribute, css properties.<br />
+            Syntax:<br />
+            &lthead&gt<br />
+            &ltstyle&gt<br />
+            <strong>p[draggable]</strong>{ <i>&lt--- element[attribute or attribute="value"]</i><br />
+            color:red;<br />
+            }<br />
+            &lt/style&gt<br />
+            &lt/head&gt<br /><br />
+            &ltbody&gt<br />
+            &ltp <b>draggable="TRUE"</b>&gtHello Mr. DJ&lt/p&gt<br />
+            &ltp&gtHow are you?&lt/p&gt<br />
+            &lt/body&gt<br /><br />
+            RESULT:<br />
+            <p draggable="TRUE" style="color:red">Hello Mr. DJ</p>
+            <p>How are you?</p><br />
+        </li>
+        </li>
+        <li><b>UNIVERSAL Selector:</b> This is used to give all elements css properties.<br />
+            Syntax:<br />
+            &lthead&gt<br />
+            &ltstyle&gt<br />
+            <strong>*</strong>{ <i>&lt--- asteric</i><br />
+            color:red;<br />
+            }<br />
+            &lt/style&gt<br />
+            &lt/head&gt<br /><br />
+            &ltbody&gt<br />
+            &ltp <b>draggable="TRUE"</b>&gtHello Mr. DJ&lt/p&gt<br />
+            &ltp&gtHow are you?&lt/p&gt<br />
+            &lt/body&gt<br /><br />
+            RESULT:<br />
+            <p style="color:red">Hello Mr. DJ</p>
+            <p style="color:red">How are you?</p>
+        </li></li>
+    </ol>
+    </p>
+    <p>Previous Topic: <a href="./HTML_CSS_2.1_INTEGRATING_CSS.html">CSS 2.1 INTEGRATING CSS</a><br />Next Topic: </p> 
+</body>
+
+</html>
