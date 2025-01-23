@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS INSPECTION</title>
+    </head>
+    <body>
+        <h1>CSS 2.4 CSS INSPECTION</h1>
+        <hr />
+        <p>We can use CSS inspect to see how the website is build. This is the inbuilt feature of all the browsers.
+            To enhance our knowledge we can do inspection of the available website that we like.
+        </p>
+
+        <br />
+        <p>To inspect websites we can press <strong>ctrl+shift+I</strong></p>
+        <img src="Images/HTML_CSS_2.4_CSS_INSPECTION_IMG1.png" height="400px" />
+        <br />
+        <p><li><strong>CSS OVERVIEW:</strong> To see what all css styling is applied on the website. <ul style="list-style-type:circle;"><li>Inspection -> More Options -> CSS OVERVIEW</li></ul>  </li></p>
+        <br />
+        <hr />
+        <h2>The Box Model</h2>
+        <p>Everything on the wesbite, i.e each html element is contained in a box/rectangular shape.</p>
+        <img src="Images/HTML_CSS_2.4_CSS_INSPECTION_IMG2.png" height="300" />
+        <p style="padding-top: 20px;margin-bottom: 5px;">This box has:
+            <ol style="margin:5px 0px;">
+                <li style="padding-bottom:5px;"><strong>Content:</strong> A piece of text, image, table, video, etc. at the center.</li>
+                <li style="padding-bottom:5px;"><strong>Padding:</strong> Surrounding the content there is a padding that pushes the border away from the content.
+                <ul>
+                    <li style="padding:10px 5px 10px 5px"><em>Syntax</em>-<strong>&ltspan style=padding:top-padding right-padding bottom-padding left-padding; &gt content &lt/span&gt</strong></li>
+                </ul>
+                </li>
+                <li style="padding-bottom:5px;">
+                    <strong>Border:</strong>There is always a visible or non visible lining around the content, i.e., The Border. In the below example Padding is 0px by default.
+                    <ul>
+                        <li><span style="border-style: solid;border:10px 5px"><em>Syntax</em>-<strong>&ltspan style=border-style:AnyStyle;border:top-bottom-border-thickness right-left-border-thickness; &gt content &lt/span&gt</strong> </span></li>
+                    </ul>
+                </li>
+                <li >
+                    <strong>Margin:</strong> Margin seperates the element from other elements.
+                    <ul>
+                        <li ><div  style="margin:20px;"><em>Syntax:</em><strong>&ltdiv style="margin:20px"&gt content &lt/div&gt</strong></div></li>
+                        <p style="margin-bottom: 0px;">Here we cannot use span tag as span is an inline-Block element, and inline elements do not respect verticle margins.</p>
+                    </ul>
+                </li>
+            </ol>
+        <img src="Images/HTML_CSS_2.4_CSS_INSPECTION_IMG3.png" alt="image3" >
+        </p>
+        <h3>Special Learning</h3>
+        <ul>
+            <li><b>&amp;nbsp; </b>: Non-breaking Space - we use this to add multiple spaces in the text. Example below</li>
+            <ul>
+                <!--&amp is used to displace & on screen such that it won't be considered as an html tag-->
+                <li>We need to write: 'Hello my name is &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Shyaam'
+                    <br />To achieve this we use <strong> &amp;nbsp;</strong> the code will look like
+                    <br /> <br />
+                    <b>Hello my name is &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Shyaam'</b>
+                    <br /> Each <i> &amp;nbsp; </i>represents one space, also we can add one space in between two &amp;nbsp; entity.
+
+                </li>
+            </ul>
+            <br />
+            <li><b>Preformatted Text  &ltpre&gt content &lt/pre&gt: </b>This tag preserve all white spaces and line breaks.</li>
+        </ul>
+
+        <p>Previous Topic: <a href="./HTML_CSS_2.3_FONT_PROPERTIES.html">CSS 2.3 FONT PROPERTIES</a><br />
+        Next Topic: <a href="./HTML_CSS_2.5_CSS_MINI_PROJECT.html">CSS 2.5 Mini Project</a></p>
+    </body>
+</html>
